@@ -1,0 +1,151 @@
+body{
+    background-color: #1f2937;
+}    
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px; 
+}
+
+.logo {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark {
+    background-color: #1f2937;
+}
+
+.main {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    height: 500px;
+}
+
+.left {
+    color: white;
+    
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+}
+
+#center {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote > div {
+    font-style: light italic;
+    font-size: 36px;
+    color: #1f2937;
+    width: 500px;
+}
+
+.w-back {
+    background-color: white;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    padding: 40px 30px;
+    width: 800px;
+    color: white;
+}
+
+#white {
+    border: 2px solid white;
+    margin: 0;
+    padding: 0px 30px;
+    font-size: 15px;
+    height: 50px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.footer {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px ;
+}
